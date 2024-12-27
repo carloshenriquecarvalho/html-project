@@ -1,2 +1,2 @@
-# html-project-1
+# html-project
  Projeto número 1 de HTML básico.
