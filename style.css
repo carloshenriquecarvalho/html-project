@@ -10,6 +10,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.cabeca {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: #151515;
+  justify-content: center;
+}
+
 .eu {
   width: 200px;
   border-radius: 200px;
@@ -30,14 +38,6 @@ img {
 
 main {
   display: block;
-}
-
-.cabeca {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  background-color: #151515;
-  justify-content: center;
 }
 
 p {
