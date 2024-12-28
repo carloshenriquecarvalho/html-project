@@ -11,12 +11,20 @@ body {
 }
 
 .cabeca {
+  justify-content: center;
   display: flex;
-  height: 200px;
+  height: 70px;
   margin: 0;
   padding: 0;
   background-color: #151515;
   justify-content: center;
+}
+
+body div h1 {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffda01;
+  text-align: center;
 }
 
 .eu {
@@ -25,29 +33,30 @@ body {
   border: 2px solid rgb(255, 230, 4);
 }
 
-h1 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #ffda01;
-  text-align: center;
-}
-
 img {
   display: flex;
   margin-right: auto;
   margin-left: auto;
 }
 
-main {
-  display: block;
-}
-
-p {
+.paragrafo {
   margin-left: 30%;
   margin-right: 30%;
+  margin-top: 100px;
 }
 
 ul {
   text-align: center;
+}
+
+footer {
+  flex: 1;
+  height: 200px;
+  align-self: flex-end;
+  background-color: red;
+  margin-top: auto;
+  text-align: center;
+  padding: 10px;
 }
 
 a {
