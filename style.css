@@ -28,15 +28,12 @@ body div h1 {
 }
 
 .eu {
-  width: 200px;
-  border-radius: 200px;
-  border: 2px solid rgb(255, 230, 4);
-}
-
-img {
   display: flex;
   margin-right: auto;
   margin-left: auto;
+  width: 400px;
+  border-radius: 200px;
+  border: 2px solid rgb(255, 230, 4);
 }
 
 .paragrafo {
@@ -44,10 +41,6 @@ img {
   margin-left: 30%;
   margin-right: 30%;
   margin-top: 100px;
-}
-
-ul {
-  text-align: center;
 }
 
 .footer {
@@ -58,7 +51,9 @@ ul {
   text-align: center;
 }
 
-a {
-  text-decoration: none;
+ul {
   list-style: none;
+  justify-content: center;
+  display: flex;
+  gap: 4px;
 }
