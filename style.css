@@ -9,6 +9,7 @@
 }
 
 body {
+  background-image: linear-gradient(to right, #FFBC00, #FF9D01);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -20,6 +21,13 @@ body {
   padding: 0;
   background-color: #151515;
   justify-content: center;
+}
+
+main {
+  background-color: white;
+  padding: 10px;
+  margin-top: 0px;
+  width: 100%;
 }
 
 body div h1 {
